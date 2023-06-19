@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	font-size: 100%;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #7f7fff;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	text-align: center;
+	max-width: 460px;
+	background-color: #fff;
+	margin: 3rem auto;
+	padding: 2rem;
+}
+.number {
+	margin: 1.5rem;
+	height: 6rem;
+	width: 10rem;
+	padding: 1rem;
+	font-size: 4rem;
+	text-align: center;
+	border: 1px solid black;
+}
+.btn {
+	margin-bottom: 1.5rem;
+	width: 15rem;
+	height: 3rem;
+	color: #fff;
+	border: none;
+	background-color: #4c4c99;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+
+.btnagain {
+	margin-top: 1rem;
+}
+.btn:hover {
+	background-color: #3f3f7f;
+}
+
+.guess,
+.score,
+.highscore {
+	font-size: 1.2rem;
+}
+@media only screen and (max-width: 700px) {
+	.container {
+		margin: 8rem auto;
+		max-width: 300px;
+	}
+}
